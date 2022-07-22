@@ -3,7 +3,7 @@
 all: add-nbo
 
 add-nbo: main.o add.o
-	g++ -o add-nbo add.o main.o
+	g++ -o add-nbo main.o add.o
 
 main.o: add.h main.cpp
 
